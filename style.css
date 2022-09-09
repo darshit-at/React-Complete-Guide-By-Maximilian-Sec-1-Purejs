@@ -1,0 +1,43 @@
+body{
+    background: rgb(200, 203, 203);
+    padding:40px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card {
+    background: white;
+    width: 350px;
+    height: 120px;
+    position: relative;
+    padding: 20px 20px;
+}
+.card .action {
+    float: right;
+    
+}
+button{
+    background: rgb(97, 69, 97);
+    color: white;
+    transition: all 0.35 ease-in-out;
+    border: 0px;
+    font-size: 14px;
+    padding: 7px 30px
+}
+.model {
+    padding: 30px;
+    transform: translate(140%,70px);
+    z-index: 2;
+    background-color:white;
+    width: 350px;
+    text-align: center;
+    height: 70px;
+}
+.btn {
+
+margin: 20px 10px;
+}
+button:hover{
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+}
